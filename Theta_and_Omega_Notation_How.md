@@ -38,13 +38,13 @@ Here, two cases can be possible:
 
 ### Best Case (Omega Notation)
 
-- The target element is the first element of the array, representing the Best Case Scenario (Omega Notation).
+- The target element is the first element of the array, representing the <b>Best Case</b> Scenario <i>(Omega Notation)</i>.
 - If so, then the time complexity of this linear search program would be: Ω(1)
 - 1 because no further searching is required.
 
 ### Average Case (Theta Notation)
 
-- The target element is present somewhere in the middle of the array, representing the Average Case Scenario (Theta Notation).
+- The target element is present somewhere in the middle of the array, representing the <b>Average Case</b> Scenario <i>(Theta Notation)</i>.
 - If so, then the time complexity of this linear search program would be: Θ(n/2) ≈ Θ(n)
 - Here n would be the index of the target element.
 
