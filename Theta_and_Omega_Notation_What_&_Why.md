@@ -40,4 +40,4 @@ In this markdown, we'll understand about Theta and Omega notation.
 - Its graph can be represented as follows: 
 <img align="center" width="443" alt="omega (1)" src="https://user-images.githubusercontent.com/43854410/99991664-5578cd00-2ddb-11eb-8e68-d7a15c9aa32a.png">
 
-<h4 align="center"> Contributed by <a href="https://github.com/yashtikakakkar">Yashtika Kakkar</a> With ❤️. </h3>
+<h4 align="center"> Contributed by <a href="https://github.com/yashtikakakkar">Yashtika Kakkar</a> With ❤️ </h3>
