@@ -15,13 +15,27 @@ In this markdown, we'll understand about Theta and Omega notation.
 
 ### Theta Notation
 
-- It is used to represent average case time complexity.
+- It is used to represent the average case time complexity.
 - It represents the upper and the lower bound of the running time of an algorithm.
 - For a function g(n), Θ(g(n)) is given by the relation:
+
 <pre>
-Θ(g(n)) = { f(n): there exist positive constants c1, c2 and n0
-            such that 0 ≤ c1g(n) ≤ f(n) ≤ c2g(n) for all n ≥ n0 }
+Θ(g(n)) = { f(n): there exist positive constants c1, c2 and n0 such that 0 ≤ c1g(n) ≤ f(n) ≤ c2g(n) for all n ≥ n0 }
 </pre>
+
+- Its graph can be represented as follows:
+<img align="center" width="443" alt="theta (1)" src="https://user-images.githubusercontent.com/43854410/99991676-5873bd80-2ddb-11eb-848c-b3245a42219d.png">
+
 
 ### Omega Notation
 
+- It is used to represent the best case time complexity.
+- It represents the lower bound of the running time of an algorithm.
+- For a function g(n), Θ(g(n)) is given by the relation:
+
+<pre>
+Ω(g(n)) = { f(n): there exist positive constants c and n0 such that 0 ≤ cg(n) ≤ f(n) for all n ≥ n0 }
+</pre>
+
+- Its graph can be represented as follows: 
+<img align="center" width="443" alt="omega (1)" src="https://user-images.githubusercontent.com/43854410/99991664-5578cd00-2ddb-11eb-8e68-d7a15c9aa32a.png">
