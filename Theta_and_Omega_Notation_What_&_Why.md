@@ -15,7 +15,7 @@ In this markdown, we'll understand about Theta and Omega notation.
 
 ### Theta Notation
 
-- It is used to represent the average case time complexity.
+- It is used to represent the <b>average case</b> time complexity.
 - It represents the upper and the lower bound of the running time of an algorithm.
 - For a function g(n), Θ(g(n)) is given by the relation:
 
@@ -29,7 +29,7 @@ In this markdown, we'll understand about Theta and Omega notation.
 
 ### Omega Notation
 
-- It is used to represent the best case time complexity.
+- It is used to represent the <b>best case<b> time complexity.
 - It represents the lower bound of the running time of an algorithm.
 - For a function g(n), Θ(g(n)) is given by the relation:
 
