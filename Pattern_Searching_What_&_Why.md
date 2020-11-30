@@ -22,3 +22,5 @@ We will discuss the basic Brute Force Approach ie the Naive Algorithm in this fi
   - Best Case: O(n)
   - Worst Case: O(m*(n-m+1))</b>;
     where n: size of text string and m: size of substring (pattern)
+
+<h4 align="center"> Contributed by <a href="https://github.com/yashtikakakkar">Yashtika Kakkar</a> With ❤️ </h3>
