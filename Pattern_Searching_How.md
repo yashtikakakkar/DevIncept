@@ -39,8 +39,9 @@ Pattern found at index 13
 
 #### Explanation
 
-When the string and pattern is passed through the search() function, their respective length is stored in variables N and M. Now, i is iterating over the string from index 0 to N-M, and it has an inner loop, with j iterating from 0 to M. If there is no match, the loop breaks and j!=M, otherwise j keeps on incrementing making itself equal to M eventually and index of the match is printed as the output.
+When the string and pattern is passed through the search() function, their respective length is stored in variables N and M. Now, i is iterating over the string from index 0 to (N-M), and it has an inner loop, with j iterating from 0 to M. If there is no match, the loop breaks and j!=M, otherwise j keeps on incrementing making itself equal to M and index of the match is printed as the output.
 
 #### Time Complexity
 - O(M*(N-M+1)); where N: size of text string and M: size of substring (pattern)
 
+<h4 align="center"> Contributed by <a href="https://github.com/yashtikakakkar">Yashtika Kakkar</a> With ❤️ </h3>
