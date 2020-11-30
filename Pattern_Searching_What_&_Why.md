@@ -14,3 +14,11 @@ There are many algorithms for Pattern Searching such as:
 We will discuss the basic Brute Force Approach ie the Naive Algorithm in this file.
 
 ### Naive Algorithm
+
+- In this Algorithm we slide the substring (pattern) over the string one by one and check for a match. 
+- If a match is found, then return the index at which it is found and also increment the index by 1 again to check for subsequent matches.
+- If not found then we simply increment the index by 1 for further searching.
+- <b>Time Complexity: 
+  - Best Case: O(n)
+  - Worst Case: O(m*(n-m+1))</b>;
+    where n: size of text string and m: size of substring (pattern)
