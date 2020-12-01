@@ -61,12 +61,16 @@ int main()
 } 
 
 ```
-#### Output: 
+#### Output
 <pre>
 Pattern found at index 0
 Pattern found at index 3
 Pattern found at index 18
 </pre>
+
+#### Explanation
+
+First we pass the string, pattern and a prime number through the function. We determine the hash value of the pattern, and loop through every substring of characters from 0 to (n-m) and calculate the hash value of the substring taking O(1) time. When the Hash value of the pattern and the substring matches, then we loop over the characters to see if it is an exact match, and if so, then return the index and continue to find other matches, otherwise just simply continue to find other matches without returning anything.
 
 #### Time Complexity
 - O(m+n) <br>
