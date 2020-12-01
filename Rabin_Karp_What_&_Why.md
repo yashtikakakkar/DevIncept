@@ -23,6 +23,7 @@ h: d^(m-1)
 </pre>
 - Time Complexity: 
   - Best & Average Case: O(m+n)
-  - Worst Case: O(mn)
+  - Worst Case: O(mn) <br>
   <i>where m: length of pattern, n: length of string/text</i>
   
+<h4 align="center"> Contributed by <a href="https://github.com/yashtikakakkar">Yashtika Kakkar</a> With ❤️ </h3>
