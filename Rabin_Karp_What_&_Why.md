@@ -6,6 +6,23 @@ Rabin-Karp Algorithm is a Pattern Searching Algorithm which is used to find if a
 <br>
 <h6>Image Source: GeeksForGeeks</h6>
 
-Like the Naive Algorithm, Rabin-Karp algorithm also slides the pattern one by one. But unlike the Naive algorithm, Rabin Karp algorithm matches the hash value of the pattern with the hash value of current substring of text, and if the hash values match then only it starts matching individual characters. So Rabin Karp algorithm needs to calculate hash values for following strings.
-1) Pattern itself. 
-2) All the substrings of the text of length m. 
+Like the Naive Pattern Searching Algorithm, Rabin-Karp Algorithm also slides the pattern one by one. But unlike the Naive algorithm, this algorithm matches the hash value of the pattern with the hash value of current substring of text, which it has slided onto, instead of comparing the substrings and if the hash values match then only it starts matching individual characters. 
+
+- This Hash value can be calculated using various techniques but we need to choose the most efficient one. Hence we take the help of the ASCII code of the alphabet. 
+- First we decide for which substrings we need to find the hash values. 
+  - The pattern
+  - The substrings present in the main string with length m
+- The hash function used is: 
+<pre>
+hash( txt[s+1 ... s+m] ) = ( d ( hash( txt[s ... s+m-1]) – txt[s]*h ) + txt[s + m] ) mod q 
+hash( txt[s .. s+m-1] ) : Hash value at shift s. 
+hash( txt[s+1 .. s+m] ) : Hash value at next shift (or shift s+1) 
+d: Number of characters in the alphabet 
+q: A prime number 
+h: d^(m-1)
+</pre>
+- Time Complexity: 
+  - Best & Average Case: O(m+n)
+  - Worst Case: O(mn)
+  <i>where m: length of pattern, n: length of string/text</i>
+  
