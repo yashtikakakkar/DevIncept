@@ -1,3 +1,4 @@
+## Rabin-Karp Implementation
 
 ```c++
 #include <bits/stdc++.h> 
@@ -66,3 +67,7 @@ Pattern found at index 0
 Pattern found at index 3
 Pattern found at index 18
 </pre>
+
+#### Time Complexity
+- O(m+n) <br>
+<i> where m: length of pattern, n: length of string </i>
