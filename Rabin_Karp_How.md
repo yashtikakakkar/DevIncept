@@ -60,5 +60,6 @@ int main()
 } 
 
 ```
-
-<h6>Output: </h6>
+#### Output: 
+<pre>
+</pre>
