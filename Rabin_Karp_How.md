@@ -1,11 +1,9 @@
 
 ```c++
-/* Following program is a C++ implementation of Rabin Karp 
-Algorithm given in the CLRS book */
 #include <bits/stdc++.h> 
 using namespace std; 
 
-// d is the number of characters in the input alphabet 
+// number of ASCII characters
 #define d 256 
 
 /* pat -> pattern 
