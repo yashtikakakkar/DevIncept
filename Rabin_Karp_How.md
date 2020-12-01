@@ -75,3 +75,5 @@ First we pass the string, pattern and a prime number through the function. We de
 #### Time Complexity
 - O(m+n) <br>
 <i> where m: length of pattern, n: length of string </i>
+
+<h4 align="center"> Contributed by <a href="https://github.com/yashtikakakkar">Yashtika Kakkar</a> With ❤️ </h3>
