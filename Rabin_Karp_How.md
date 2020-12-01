@@ -50,8 +50,8 @@ void search(char pat[], char txt[], int q)
 
 int main() 
 { 
-	char txt[] = "GEEKS FOR GEEKS"; 
-	char pat[] = "GEEK"; 
+	char txt[] = "BYEBYEIWISHYOUGOODBYE"; 
+	char pat[] = "BYE"; 
 		
 	int q = 101; 
 	
@@ -62,4 +62,7 @@ int main()
 ```
 #### Output: 
 <pre>
+Pattern found at index 0
+Pattern found at index 3
+Pattern found at index 18
 </pre>
