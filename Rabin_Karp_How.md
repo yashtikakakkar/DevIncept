@@ -1,4 +1,5 @@
 
+```c++
 /* Following program is a C++ implementation of Rabin Karp 
 Algorithm given in the CLRS book */
 #include <bits/stdc++.h> 
@@ -82,3 +83,4 @@ int main()
 } 
 
 // This is code is contributed by rathbhupendra 
+```
