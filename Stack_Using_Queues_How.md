@@ -201,3 +201,5 @@ current size: 2
   - Dequeue the last item of q1, the dequeued item is result, store it.
   - Swap the names of q1 and q2
   - Return the item stored in step 2.
+
+<h4 align="center"> Contributed by <a href="https://github.com/yashtikakakkar">Yashtika Kakkar</a> With ❤️ </h3>
