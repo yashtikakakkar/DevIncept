@@ -1,6 +1,6 @@
 ## Count Distinct Elements: Implementation
 
-### Method 1
+### Method 1: Brute Force
 
 ```c++
  
@@ -38,7 +38,7 @@ int main()
 5
 </pre>
 
-### Method 2
+### Method 2: Using Sorting
 
 ```c++
 
@@ -75,7 +75,7 @@ int main()
 5
 </pre>
 
-### Method 3
+### Method 3: Using Hashing
 
 ```c++
 
