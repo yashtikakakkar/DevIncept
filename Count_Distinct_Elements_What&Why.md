@@ -13,10 +13,26 @@ Output: 2
 Explanation: There are two distinct elements 10 and 20.
 </pre>
 
-There can be 3 methods used for this purpose. We will look at all of them one by one.
+There can be 3 methods used for this purpose. We will look at the approach of each of them one by one:
 
-### Method 1
+### Method 1 Approach
 
-### Method 2
+- This is the <b>brute force</b> approach. 
+- Here we run two nested loops.
+- We check for each element, if it is not repeated again, we increment the count of distinct elements.
+- Time Complexity: O(n^2)
 
-### Method 3
+### Method 2 Approach
+
+- Use <b>sorting</b> to reduce the time complexity.
+- The occurrences of every element become consecutive.
+- Any change in element will increment the counter of distinct elements.
+- Time Complexity: O(nLogn)
+
+### Method 3 Approach
+
+- We will use <b>hashing</b> in this. 
+- We will traverse the array elements one by one.
+- Also, keep on check on the number of elements using a hash set.
+- Time Complexity: O(n)
+
