@@ -36,3 +36,4 @@ There can be 3 methods used for this purpose. We will look at the approach of ea
 - Also, keep on check on the number of unique elements using a hash set.
 - Time Complexity: O(n)
 
+<h4 align="center"> Contributed by <a href="https://github.com/yashtikakakkar">Yashtika Kakkar</a> With ❤️ </h3>
