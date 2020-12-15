@@ -33,6 +33,6 @@ There can be 3 methods used for this purpose. We will look at the approach of ea
 
 - We will use <b>hashing</b> in this. 
 - We will traverse the array elements one by one.
-- Also, keep on check on the number of elements using a hash set.
+- Also, keep on check on the number of unique elements using a hash set.
 - Time Complexity: O(n)
 
