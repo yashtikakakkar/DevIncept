@@ -30,7 +30,7 @@ int main()
 	cout << countDistinct(arr, n); 
 	return 0; 
 } 
-
+ 
 ``` 
 
 #### Output:
