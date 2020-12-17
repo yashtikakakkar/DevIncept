@@ -17,7 +17,7 @@ int countDistinct(int arr[], int n)
 			if (arr[i] == arr[j]) 
 				break; 
 
-		if (i == j) 
+		if (i == j)  
 			res++; 
 	} 
 	return res; 
