@@ -1,6 +1,6 @@
 ## Count Distinct Elements
 
-What we are given in this problem is that we have an array which contains 'n' elements. The elements can be repetitive. We need to find the number of distinct elements present in it and give the count as the output.
+What we are given in this problem is that we have an array which contains 'n' elements. The elements can be repetitive. We need to find the number of distinct elements present in it and give the count as the output. 
 
 #### For example:  
 <pre>
